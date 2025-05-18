@@ -71,7 +71,7 @@ class _LoginPageState extends State<LoginPage> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        "Welcome Back 👋",
+                        "Welcome Back 👋 to Platform ",
                         style: TextStyle(fontSize: 36, fontWeight: FontWeight.bold),
                       ),
                       SizedBox(height: 10),
