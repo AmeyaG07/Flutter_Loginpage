@@ -1,4 +1,3 @@
-// login_page.dart
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 
@@ -121,15 +120,15 @@ class _LoginPageState extends State<LoginPage> {
                       SizedBox(height: 20),
                       ElevatedButton(
                         onPressed: () {},
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 30),
-                          child: Text('Login', style: TextStyle(fontSize: 18)),
-                        ),
                         style: ElevatedButton.styleFrom(
                           minimumSize: Size(double.infinity, 50),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(12),
                           ),
+                        ),
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 30),
+                          child: Text('Login', style: TextStyle(fontSize: 18)),
                         ),
                       ),
                       SizedBox(height: 20),
